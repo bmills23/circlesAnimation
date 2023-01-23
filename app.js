@@ -27,7 +27,7 @@ function animate() {
   for (let i = 0; i < rows; i++) {
     for (let j = 0; j < columns; j++) {
       // Calculate the x and y coordinates of the center of the circle
-      let x = (500 + j * (50 + padding));
+      let x = (20 + j * (50 + padding));
       let y = (10 + i * (50 + padding));
 
       // Draw the circle
